@@ -1,0 +1,11 @@
+package core;
+
+//1.out -> printstream
+//2.in -> inputstream
+//3.errr -> err msg
+public class P001_First {
+	public static void main(String[] args) {
+		System.out.println("hello java developer");
+		System.out.println("hello again")
+	}
+}

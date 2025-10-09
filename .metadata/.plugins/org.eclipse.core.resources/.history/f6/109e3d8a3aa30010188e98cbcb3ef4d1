@@ -1,0 +1,29 @@
+package core;
+
+public class P002_DataTypes {
+	public static void main(String[] args) {
+		// 1.Primitive - > byte,short,int,long,float,double,boolean,char
+		// 2.non - primitive -> String,array,class
+		// 1.should not start with special character,numeric
+		// 2.cannot mention variable name as predefined keyword
+		// 3.variable name doesn't have space between them
+
+		byte b = 127; // 1 byte -> -128 to 127
+		System.out.println(b);
+
+		short s = 12;// 2 bytes -> -32768 to 32767
+		System.out.println(s);
+
+		int i = 12;// 4
+		System.out.println(i);
+
+		long l = 12;// 8
+		System.out.println(12);
+
+		float f = 3.1446876979789f; // 4 byte
+		System.out.println(f);
+
+		double d = 3.1446876979789; // 8
+		System.out.println(d);
+	}
+}

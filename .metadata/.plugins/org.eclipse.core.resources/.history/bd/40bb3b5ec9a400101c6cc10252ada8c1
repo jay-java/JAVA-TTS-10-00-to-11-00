@@ -1,0 +1,11 @@
+package core;
+
+public class P004_ConditionalStatements {
+	public static void main(String[] args) {
+		int i = 1, j = 2;
+		//1.if
+		if() {
+			
+		}
+	}
+}
