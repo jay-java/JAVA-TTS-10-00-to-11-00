@@ -1,0 +1,9 @@
+package core;
+
+public class P008_Array {
+	public static void main(String[] args) {
+		int a[] = { 13456, 4562, 6788793, 34544, 575 };
+		System.out.println(a[4]);
+
+	}
+}

@@ -1,0 +1,17 @@
+package core;
+
+public class P003_TYpeCasting {
+	public static void main(String[] args) {
+		// -128 to 127
+		byte b = 127;
+		
+		// -32768 to 32767
+		short s  = b;
+		
+		
+		
+		int i = 10, j = 3;
+		int k = i / j;
+		System.out.println(k);
+	}
+}
