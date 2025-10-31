@@ -1,0 +1,17 @@
+package core;
+
+class User{
+	User(){
+		System.out.println("user defualt constructor");
+	}
+	public void showUserData() {
+		System.out.println("show data in User class");
+	}
+}
+
+public class P011_Constructor {
+	public static void main(String[] args) {
+		User u = new User();
+		u.showUserData();
+	}
+}
