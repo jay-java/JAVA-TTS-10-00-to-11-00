@@ -1,0 +1,65 @@
+package core;
+
+class Student {
+	private int id;
+	private String name;
+	private String address;
+	private long contact;
+
+	Student() {
+
+	}
+
+	Student(int id, String name, String address, long contact) {
+		this.id = id;
+		this.name = name;
+		this.address = address;
+		this.contact = contact;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setContact(long contact) {
+		this.contact = contact;
+	}
+
+	public long getContact() {
+		return contact;
+	}
+
+}
+
+public class P016_Encapsulation {
+	public static void main(String[] args) {
+		Student s1 = new Student();
+		s1.setId(1);
+		s1.setName("java");
+		s1.setAddress("delhi");
+		s1.setContact(987654321);
+
+		System.out.println(s1.getId());
+		System.out.println(s1.getName());
+	}
+}

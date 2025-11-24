@@ -1,0 +1,10 @@
+package core;
+
+class ATM{
+	
+}
+public class P014_Abstrction {
+	public static void main(String[] args) {
+		
+	}
+}

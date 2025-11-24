@@ -3,4 +3,9 @@
     <fullyQualifiedTypeName name="core.Functions"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="core.User"/>
+    <fullyQualifiedTypeName name="core.Overload"/>
+    <fullyQualifiedTypeName name="core.Child"/>
+    <fullyQualifiedTypeName name="core.SBI"/>
+    <fullyQualifiedTypeName name="core.HDFC"/>
+    <fullyQualifiedTypeName name="core.JAVA"/>
 </qualifiedTypeNameHistroy>

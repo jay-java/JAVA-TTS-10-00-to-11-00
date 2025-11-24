@@ -1,0 +1,15 @@
+package core;
+
+//same function name but having different functionalities.
+//2 types 
+//1.compiletime -> overloading
+//2.runtime -> overriding
+
+class Overload{
+	
+}
+public class P013_Polymorphism {
+	public static void main(String[] args) {
+
+	}
+}

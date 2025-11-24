@@ -1,0 +1,14 @@
+package core;
+
+class ATM{
+	
+}
+
+class User{
+	
+}
+public class P014_Abstrction {
+	public static void main(String[] args) {
+		
+	}
+}
