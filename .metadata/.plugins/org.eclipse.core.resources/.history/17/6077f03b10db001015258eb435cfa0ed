@@ -1,0 +1,27 @@
+package core;
+
+class AClass {
+	final int i = 1;
+
+	public void changeValue() {
+//		i++;
+		System.out.println("change value method in parent class : " + i);
+	}
+}
+
+class ChildOfAClass extends AClass {
+	public void changeValue() {
+		System.out.println("change value method in child class");
+	}
+}
+
+public class P017_Final {
+	public static void main(String[] args) {
+		AClass a = new AClass();
+//		a.changeValue();
+		
+		
+		ChildOfAClass c = new ChildOfAClass();
+		c.changeValue();
+	}
+}

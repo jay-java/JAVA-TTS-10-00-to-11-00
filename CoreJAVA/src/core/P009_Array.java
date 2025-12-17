@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class P009_Array {
 	public static void main(String[] args) {
 		int a[] = { 13456, 45756, 6788793, 34544, 575 };
+
 		for (int index = 0; index < a.length; index++) {
 			System.out.println(a[index]);
 		}

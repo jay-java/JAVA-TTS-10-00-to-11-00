@@ -1,0 +1,48 @@
+package core;
+
+import java.util.Scanner;
+
+public class P009_Array {
+	public static void main(String[] args) {
+		int a[] = { 13456, 45756, 6788793, 34544, 575 };
+
+		System.out.println(a[10]);
+		for (int index = 0; index < a.length; index++) {
+			System.out.println(a[index]);
+		}
+
+		System.out.println("enter size of array : ");
+		Scanner sc = new Scanner(System.in);
+		int size = sc.nextInt();
+
+		int arr[] = new int[size];
+		for (int index = 0; index < arr.length; index++) {
+			System.out.print("enter element at arr[" + index + "] : ");
+			arr[index] = sc.nextInt();
+		}
+
+		int sum = 0;
+		for (int index = 0; index < arr.length; index++) {
+			sum = sum + arr[index];
+			System.out.println(sum);
+		}
+
+		System.out.println("sum = " + sum);
+
+		System.out.println("enter number to search in array : ");
+		int num = sc.nextInt();
+
+		int counter = 0;
+		for (int index = 0; index < arr.length; index++) {// 10
+			if (num == arr[index]) {
+				counter++;
+			}
+		}
+		if (counter > 0) {
+			System.out.println("yes " + num + " is exist " + counter + " times");
+		} else {
+			System.out.println("no");
+		}
+
+	}
+}
