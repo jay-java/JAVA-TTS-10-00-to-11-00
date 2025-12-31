@@ -1,0 +1,12 @@
+package core;
+
+import java.io.FileOutputStream;
+
+public class P020_FileHandling {
+	public static void main(String[] args) {
+		String msg = "this msg will stored into file";
+		// FileOutPutStream->write data into file
+		// FileInputStream ->read data from file
+		FileOutputStream fos = new FileOutputStream();
+	}
+}

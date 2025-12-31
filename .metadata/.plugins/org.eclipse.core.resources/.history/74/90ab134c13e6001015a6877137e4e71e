@@ -1,0 +1,10 @@
+package core;
+class Employee{
+	int id;
+	String name;
+	double salary;
+	
+}
+public class P023_ListPractical {
+
+}

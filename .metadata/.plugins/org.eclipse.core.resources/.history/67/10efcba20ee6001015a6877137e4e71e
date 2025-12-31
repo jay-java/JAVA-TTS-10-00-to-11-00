@@ -1,0 +1,24 @@
+package core;
+
+class Laptop {
+	int ram;
+	String model;
+	double price;
+
+	Laptop(int ram, String model, double price) {
+		this.ram = ram;
+		this.model = model;
+		this.price = price;
+	}
+
+	@Override
+	public String toString() {
+		return "Laptop : [Ram : " + ram + ", Model : " + model + ", Price : " + price + "]";
+	}
+}
+
+public class P021_Seraialization {
+	public static void main(String[] args) {
+		Laptop l1 = new Laptop(8, "Dell", 987654.34);
+	}
+}

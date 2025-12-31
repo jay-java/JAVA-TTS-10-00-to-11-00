@@ -1,0 +1,28 @@
+package core;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+class Laptop {
+	int ram;
+	String model;
+	double price;
+
+	Laptop(int ram, String model, double price) {
+		this.ram = ram;
+		this.model = model;
+		this.price = price;
+	}
+
+	@Override
+	public String toString() {
+		return "Laptop : [Ram : " + ram + ", Model : " + model + ", Price : " + price + "]";
+	}
+}
+
+public class P021_Serialization {
+	public static void main(String[] args) throws FileNotFoundException {
+		Laptop l1 = new Laptop(8, "Dell", 987654.34);
+		FileOutputStream fos = new FileOutputStream("laptop.txt");
+	}
+}

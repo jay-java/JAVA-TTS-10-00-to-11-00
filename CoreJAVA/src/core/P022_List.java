@@ -1,0 +1,28 @@
+package core;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class P022_List {
+	//<generics>
+	public static void main(String[] args) {
+		List list = new ArrayList();
+		list.add(1);
+		list.add("java");
+		list.add(345.345);
+		list.add(false);
+		list.add('e');
+		list.add(1243654767);
+		list.add(1);
+		System.out.println(list);
+		list.add(3454);
+		System.out.println(list);
+		
+		Iterator itr =list.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+		
+	}
+}
