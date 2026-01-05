@@ -1,0 +1,20 @@
+package core;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class P025_Map {
+	public static void main(String[] args) {
+		Map<String, String> map = new HashMap();
+		map.put(1, "c"); //entry
+		map.put("c++", 2);
+		map.put('f', false);
+		map.put(345.64, true);
+		map.put("php", 46);
+		map.put(2, "java");
+		map.put(1, "python");
+		System.out.println(map);
+		
+		
+	}
+}

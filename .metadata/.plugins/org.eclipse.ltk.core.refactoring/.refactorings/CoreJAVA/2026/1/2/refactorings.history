@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;core.P024_Se&apos; to &apos;P024_Set&apos;&#x0D;&#x0A;- Original project: &apos;CoreJAVA&apos;&#x0D;&#x0A;- Original element: &apos;core.P024_Se&apos;&#x0D;&#x0A;- Renamed element: &apos;core.P024_Set&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;P024_Se&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;core{P024_Se.java[P024_Se" matchStrategy="1" name="P024_Set" qualified="false" references="true" similarDeclarations="false" stamp="1767594302845" textual="false" version="1.0"/>
+</session>

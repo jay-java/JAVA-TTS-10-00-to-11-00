@@ -1,0 +1,11 @@
+package core;
+
+public class P026_String {
+	public static void main(String[] args) {
+		char[] c = {'j','a','v','a'};
+		System.out.println(c);
+		String s = "hello java developers";
+		System.out.println(s);
+		System.out.println(s.length());
+	}
+}
